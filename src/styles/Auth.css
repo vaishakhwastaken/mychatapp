@@ -1,5 +1,34 @@
-.auth {
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #fdf1e0; /* light peach background */
+}
+
+.auth-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-header {
+    background-color: #ff9966; /* peach */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.auth {
+    margin-top: 30px;
 }
 
 .auth button {
@@ -11,4 +40,5 @@
     border-radius: 8px;
     font-size: 18px;
     cursor: pointer;
+    margin-top: 20px;
 }

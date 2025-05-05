@@ -3,6 +3,7 @@ import { addDoc, collection, serverTimestamp,onSnapshot, query, where, orderBy} 
 import { auth, db } from '../firebase-config';
 import '../styles/Chat.css'; // Import the CSS file for styling
 
+
 export const Chat = (props) => {
     const { room } = props; // Get the room name from props
     const [newMessage, setNewMessage] = useState('');
