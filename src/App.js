@@ -37,7 +37,7 @@ function App() {
         <Chat room={room} />
       ) : (
         <div className="room">
-          <label>Enter Room name</label>
+          <label>Join Room</label>
           <input ref={roomInputRef} />
           <button onClick={() => setRoom(roomInputRef.current.value)}>
             Enter Chat
